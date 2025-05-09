@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(7, 213, 38);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
